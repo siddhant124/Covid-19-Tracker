@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".CountryData">
+
+        <TextView
+            android:id="@+id/CovidCases"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cases"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_blue_dark"
+            />
+
+        <TextView
+            android:id="@+id/CovidTodayCases"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Today Cases"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_blue_bright"
+            />
+
+        <TextView
+            android:id="@+id/CovidDeaths"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deaths"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_red_dark"
+            />
+
+        <TextView
+            android:id="@+id/CovidTodayDeaths"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Today Deaths"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_red_light"
+            />
+
+        <TextView
+            android:id="@+id/CovidRecovered"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recovered"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_green_dark"
+            />
+
+        <TextView
+            android:id="@+id/CovidActive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Active"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_green_light"
+            />
+
+        <TextView
+            android:id="@+id/CovidCritical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Critical"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_purple"
+            />
+
+        <TextView
+            android:id="@+id/CovidCasesPerOneMillion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cases Per One Million"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_orange_dark"
+            />
+
+        <TextView
+            android:id="@+id/CovidDeathsPerOneMillion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deaths Per One Million"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_orange_light"
+            />
+
+        <TextView
+            android:id="@+id/CovidTotalTests"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Tests"
+            android:textSize="20sp"
+            android:textColor="#FB00D2"
+            />
+
+        <TextView
+            android:id="@+id/CovidTestsPerOneMillion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tests Per One Million"
+            android:textSize="20sp"
+            android:textColor="#B5FF8E03"
+            />
+
+</LinearLayout>
